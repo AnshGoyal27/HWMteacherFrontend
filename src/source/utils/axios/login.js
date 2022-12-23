@@ -5,7 +5,7 @@ import { store } from "../redux/store";
 export function LoginCall(userName,ID){
     axios({
         method:'post',
-        url:'http://localhost:1234/login',
+        url:'hw-mteacher-backend.vercel.app/login',
         data:{
             userName:userName,
             password:ID,
