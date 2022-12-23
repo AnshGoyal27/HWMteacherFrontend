@@ -6,7 +6,7 @@ export function getClass(token){
 
     axios({
         method:'post',
-        url:'hw-mteacher-backend.vercel.app/getclass',
+        url:'https://hw-mteacher-backend-5oth7ar2h-anshgoyal27.vercel.app/getclass',
         headers:{
             authorization : token
         }
