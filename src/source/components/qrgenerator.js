@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useState } from "react";
 import { useSelector } from "react-redux";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { qrcall } from "../utils/axios/qrcall";
 import { qrstop } from "../utils/axios/qrstop";
 // var resizebase64 = require('resize-base64');
