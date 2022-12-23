@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useState } from "react";
 import { LoginCall } from "../utils/axios/login";
 
 export const LoginValidation = () => {
