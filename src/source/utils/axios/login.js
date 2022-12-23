@@ -6,6 +6,12 @@ export function LoginCall(userName,ID){
     axios({
         method:'post',
         url:'https://hw-mteacher-backend-5oth7ar2h-anshgoyal27.vercel.app/login',
+        headers:{
+            'Access-Control-Allow-Origin':"$http_origin",
+            'Access-Control-Allow-Methods': "OPTIONS, POST, GET",
+            'Access-Control-Allow-Credentials': "true",
+            'Access-Control-Allow-Headers': "Content-Type"
+        },
         data:{
             userName:userName,
             password:ID,
