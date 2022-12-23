@@ -3,7 +3,7 @@ import axios from "axios";
 export function Verify(token){
     axios({
         method:'post',
-        url:'http://localhost:1234/verify',
+        url:'hw-mteacher-backend.vercel.app/verify',
         headers:{
             'authorization': token
         }
