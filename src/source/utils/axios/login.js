@@ -5,6 +5,7 @@ import { store } from "../redux/store";
 export function LoginCall(userName,ID){
     axios({
         method:'post',
+        mode: 'cors',
         url:'https://hw-mteacher-backend-5oth7ar2h-anshgoyal27.vercel.app/login',
         headers:{
             'Access-Control-Allow-Origin':"*",
