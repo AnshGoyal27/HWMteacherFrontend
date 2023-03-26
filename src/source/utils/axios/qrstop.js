@@ -3,7 +3,7 @@ import axios from "axios";
 export function qrstop(token){
         axios({
             method:'get',
-            url:'https://hw-mteacher-backend-5oth7ar2h-anshgoyal27.vercel.app/clearqr',
+            url:'https://hw-mteacher-backend.vercel.app/clearqr',
             headers:{
                 authorization : token
             }
