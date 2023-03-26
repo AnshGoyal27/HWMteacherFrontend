@@ -8,7 +8,7 @@ export function LoginCall(userName,ID){
         mode: 'cors',
         url:'https://hw-mteacher-backend.vercel.app/login',
         headers: {
-                "Access-Control-Allow-Origin": "https://musicstorebm.netlify.app",
+                "Access-Control-Allow-Origin": "https://hwmdeploy.netlify.app/",
                 "Access-Control-Allow-Credentials": "true",
                 "Access-Control-Allow-Methods": 'HEAD, GET, POST, PUT, DELETE, OPTIONS',
                 "Access-Control-Allow-Headers" : 'Origin,Content-Type,Authorization',
