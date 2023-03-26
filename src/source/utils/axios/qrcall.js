@@ -7,7 +7,7 @@ export function qrcall(token){
     function generateqr(){
         axios({
             method:'get',
-            url:'https://hw-mteacher-backend-5oth7ar2h-anshgoyal27.vercel.app/genqr',
+            url:'https://hw-mteacher-backend.vercel.app/genqr',
             headers:{
                 authorization : token
             }
