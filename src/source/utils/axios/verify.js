@@ -11,12 +11,10 @@ export function Verify(token){
                 "Access-Control-Allow-Methods": 'HEAD, GET, POST, PUT, DELETE, OPTIONS',
                 "Access-Control-Allow-Headers" : 'Origin,Content-Type,Authorization',
                 'Accept': "application/json",
-                "Content-Type": "application/json;charset=UTF-8"
+                "Content-Type": "application/json;charset=UTF-8",
+                'authorization': token
             },
         url:'https://hw-mteacher-backend.vercel.app/verify',
-        headers:{
-            'authorization': token
-        }
     })
     .then((data)=>{
         console.log('Verify',data);
